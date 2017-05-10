@@ -25,7 +25,7 @@ function oscarTheLifetimeSupplier(){
      var quantityOfSnack = prompt('How much do you eat in a week from the ' + nameOfSnack + ' in kilograms?');
      age = parseInt(age);
      lifeLong = parseInt(lifeLong);
-     var lifeYears = age + lifeLong;
+     var lifeYears = lifeLong - age;
     alert('Dear User. You will need '+ (52*quantityOfSnack)*lifeLong + ' kilograms from your favorite snack for '+lifeLong + ' years. You will be '+ lifeYears + ' years old when this ' + (52*quantityOfSnack)*lifeLong + ' kgs run out.');
   return;
 }
