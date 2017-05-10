@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by bgabor91 (http://jsbin.com/pijuxu/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Oscar és a kedvenc nassolnivalód">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+<script id="jsbin-javascript">
+function oscarTheLifetimeSupplier(){
+     var age = prompt('How many years old are you?');
+     var lifeLong = prompt('What do you think how many years you will still live?');
+     var nameOfSnack = prompt('What is your favorite snack?');
+     var quantityOfSnack = prompt('How much do you eat in a week from the ' + nameOfSnack + ' in kilograms?');
+     age = parseInt(age);
+     lifeLong = parseInt(lifeLong);
+     var lifeYears = age + lifeLong;
+    alert('Dear User. You will need '+ (52*quantityOfSnack)*lifeLong + ' kilograms from your favorite snack for '+lifeLong + ' years. You will be '+ lifeYears + ' years old when this ' + (52*quantityOfSnack)*lifeLong + ' kgs run out.');
+  return;
+}
+oscarTheLifetimeSupplier();
+</script>
+</body>
+</html>
